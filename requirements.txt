@@ -1,0 +1,19 @@
+# Python formatter
+# https://pypi.org/project/black/
+black==23.7.0
+
+# Framework for managing pre-commit hooks
+# https://pypi.org/project/pre-commit/
+pre-commit==3.3.3
+
+# Python test framework
+# https://pypi.org/project/pytest/
+pytest==7.4.0
+
+# Python HTTP library
+# https://pypi.org/project/requests/
+requests==2.31.0
+
+# Supress NotOpenSSLWarning
+# Ref: https://github.com/urllib3/urllib3/issues/2168
+urllib3==1.26.6
