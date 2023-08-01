@@ -1,6 +1,6 @@
 import pytest
 
-import application
+from application import hello
 
 
 @pytest.mark.parametrize(
@@ -10,10 +10,10 @@ import application
     ],
 )
 def test_hello(name, expected):
-    result = application.hello(name=name)
+    result = hello.hello(name=name)
     assert result == expected
 
 
 def test_value_error():
-    with pytest.raises(application.NotAStringError):
-        _ = application.hello(name=1)
+    with pytest.raises(hello.NotAStringError):
+        _ = hello.hello(name=1)
