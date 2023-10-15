@@ -1,14 +1,22 @@
-# Python formatter
+## Python linting
 # https://pypi.org/project/black/
-black==23.7.0
+black==23.9.1
 
-# Framework for managing pre-commit hooks
+## Flake8 - Tool For Style Guide Enforcement.
+# https://flake8.pycqa.org/en/latest/
+flake8==6.1.0
+
+## Isort - A Python utility / library to sort imports.
+# https://pycqa.github.io/isort/
+isort==5.12.0
+
+# Pre-commit hook framework
 # https://pypi.org/project/pre-commit/
-pre-commit==3.3.3
+pre-commit==3.5.0
 
 # Python test framework
-# https://pypi.org/project/pytest/
-pytest==7.4.0
+# https://docs.pytest.org
+pytest==7.4.2
 
 # Python HTTP library
 # https://pypi.org/project/requests/
