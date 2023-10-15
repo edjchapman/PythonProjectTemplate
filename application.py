@@ -3,6 +3,6 @@ class NotAStringError(ValueError):
 
 
 def hello(name: str = "") -> str:
-    if not type(name) == str:
+    if not isinstance(name, str):
         raise NotAStringError
     return f"Hello {name}"
